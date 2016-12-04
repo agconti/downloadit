@@ -1,6 +1,6 @@
 {
   "name": "downloadit",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "preferGlobal": "true",
   "description": "A simple utility for downloading files by url.",
   "bin": {

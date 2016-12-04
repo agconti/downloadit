@@ -1,4 +1,5 @@
-const fs = require('fs');
+#!/usr/bin/env node
+const fs = require('fs')
 const http = require('http')
 const https = require('https')
 const Stream = require('stream').Transform

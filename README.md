@@ -1,5 +1,5 @@
 # getjs
-A simple utility for downloading files by url.
+A simple utility for downloading files by url. Allows for multiple downloads.
 
 ## Install
 ```bash

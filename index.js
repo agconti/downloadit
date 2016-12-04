@@ -21,11 +21,11 @@ function chooseEngine(resource) {
 
 function download (resource) {
   const engine = chooseEngine(resource)
-  engine.request(resource, (response) => {
+  engine.request(resource, response => {
     const data = new Stream()
     const fileName = resource.split('/').pop()
 
-    response.on('data', (chunk) => data.push(chunk))
+    response.on('data', chunk => data.push(chunk))
     response.on('end', () => {
       fs.writeFileSync(fileName, data.read())
       process.stdout.write(`${fileName}\r`)

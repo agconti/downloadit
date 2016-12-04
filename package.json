@@ -1,20 +1,24 @@
 {
-  "name": "getjs",
+  "name": "downloadit",
   "version": "0.1.0",
+  "preferGlobal": "true",
   "description": "A simple utility for downloading files by url.",
+  "bin": {
+    "get": "./index.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agconti/getjs.git"
+    "url": "git+https://github.com/agconti/downloadit.git"
   },
   "keywords": ["download", "utility"],
   "author": "Andrew Conti <agc11d@gmail.com> (agconti.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/agconti/getjs/issues"
+    "url": "https://github.com/agconti/downloadit/issues"
   },
-  "homepage": "https://github.com/agconti/getjs#readme"
+  "homepage": "https://github.com/agconti/downloadit#readme"
 }

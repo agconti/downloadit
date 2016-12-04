@@ -1,7 +1,8 @@
 # downloadit
+[![npm version](https://badge.fury.io/js/downloadit.svg)](https://badge.fury.io/js/downloadit)
+
 ![](https://media.giphy.com/media/DiYaXNov6PdyE/giphy.gif)
 
-[![npm version](https://badge.fury.io/js/downloadit.svg)](https://badge.fury.io/js/downloadit)
 
 A simple utility for downloading files by url. Allows for multiple downloads.
 
